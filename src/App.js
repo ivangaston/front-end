@@ -1,16 +1,17 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
+
 import React from "react";
+/*ACA importamos las funciones creadas en en un archivo JS, la palabra en rojo es el nombre de la funcion */ 
 import Header from "./layOut/Header.js";
 import Nav from "./layOut/Nav.js";
-import Main from "./layOut/Main";
 import Footer from './layOut/Footer.js';
 
-import ContactoPage from './pages/ContactoPage.js';
+
 import HomePage from './pages/HomePage.js';
 import NosotrosPage from './pages/NosotrosPage.js';
+import ContactoPage from './pages/ContactoPage.js';
 import ServicesPage from './pages/ServicesPage.js';
-
 
 
 
@@ -27,8 +28,6 @@ function App() {
           <Route path='/contacto' element={<ContactoPage />} />
         </Routes>
       </BrowserRouter>
-
-      <Main />
 
       <Footer />
 

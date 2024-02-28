@@ -1,0 +1,16 @@
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+}
+.links-footer>a{
+    margin: .5em;
+}
+.links-footer>a>img:hover{
+transform: scale(1.2);
+}
+.parrafo-footer{
+    color: rgb(179, 179, 179);
+}
