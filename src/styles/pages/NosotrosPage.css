@@ -1,3 +1,20 @@
 #historia-hdos{
     font-size: 500%;
 }
+#historia-hdos
+,.parrafos-historia{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+main{
+    max-width: 100%;
+}
+
+ .nosotros-page{
+    background-image: url("../../../public/images/modelo\ car\ 1.jpg");
+    background-repeat: no-repeat;
+    background-size:auto;
+    width: 100%;
+    height: 1080px;
+    
+ }

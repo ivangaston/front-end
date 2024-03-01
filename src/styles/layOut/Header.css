@@ -11,10 +11,10 @@ header>div>h1 {
     display: flex;
     justify-content: end;
     font-size: 50px;
-    padding: .5em;
-    background: linear-gradient(rgb(99, 255, 91)40%,rgb(91, 211, 255));
+    padding: .2em;
+    background: linear-gradient(rgb(99, 255, 91)40%, rgb(91, 211, 255));
     background-clip: text;
-    color: transparent;  
-    
-    
+    color: transparent;
+
 }
+

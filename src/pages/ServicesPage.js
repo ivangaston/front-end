@@ -1,8 +1,9 @@
 import React from "react";
+import'../styles/pages/ServicesPage.css'
 
 const ServicesPage = () => {
     return (
-        <main className="holder services">
+        <main className="holder services-page">
             <h2>Nuestros Servicios</h2>
             <div className="tabla-servicios">
                 <table border="1">
